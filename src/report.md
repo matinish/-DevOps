@@ -11,15 +11,15 @@
 - Флаг -m создает домашний каталог пользователя  
 - Флаг -s указывает оболочку входа пользователя 
  
-![useradd](src/screenshots/2usr.png)
+![useradd](/src/screenshots/2usr.png)
 
 ##### Используя команду sudo usermod -aG adm matinish, добавляем пользователя в группу adm.
 
-![usermod](src/screenshots/3usermod.png)
+![usermod](/src/screenshots/3usermod.png)
 
 ##### Вызываем команду cat /etc/passwd
 
-![cat etc/psswd](src/screenshots/3psswd.png)
+![cat etc/psswd](/src/screenshots/3psswd.png)
 
 ## Part 3. Настройка сети ОС
 
@@ -55,7 +55,7 @@
 
 - Пингуем удаленные хосты 1.1.1.1 и ya.ru с помощью команды <em>ping</em>: 
  
-![ping](src/screenshots/3ping.png)
+![ping](/src/screenshots/3ping.png)
 
 ## Part 4. Обновление ОС
 
@@ -63,7 +63,7 @@
 
 Командой <em>sudo apt-get update</em> обновляем систему до последней версии.
 
-![update](src/screenshots/4upd.png)
+![update](/src/screenshots/4upd.png)
 
 ## Part 5. Использование команды sudo
 
@@ -73,7 +73,7 @@
  
 Командой <em>sudo nano /etc/hostname</em> запускаем редактирование hostname и изменяем его.
 
-![hostname](src/screenshots/5.png)
+![hostname](/src/screenshots/5.png)
 
 ## Part 6. Установка и настройка службы времени
 
@@ -83,47 +83,47 @@
 
 Вызываем команду <em>timedatectl status</em>
 
-![tdc](src/screenshots/6ntpsync.png)
+![tdc](/src/screenshots/6ntpsync.png)
 
 ## Part 7. Установка и использование текстовых редакторов
 
 Для выхода из VIM с сохранением необходимо напечатать <em>:w</em>, затем <em>:x</em>
 
-![vim](src/screenshots/7vim.png)
+![vim](/src/screenshots/7vim.png)
 
 Для выхода из NANO с сохранением необходимо нажать <em>control+X</em>, и напечатать "Y"
 
-![nano](src/screenshots/7nano.png)
+![nano](/src/screenshots/7nano.png)
 
 Для выхода из MCEDIT с сохранением необходимо нажать <em>fn+F2</em>, затем <em>fn+F10</em>
 
-![mc](src/screenshots/7mc.png)
+![mc](/src/screenshots/7mc.png)
 
 Для выхода из VIM без сохранения необходимо напечатать <em>:q</em>
 
-![2vim](src/screenshots/7vim1.png)
+![2vim](/src/screenshots/7vim1.png)
 
 Для выхода из NANO без сохранения необходимо нажать <em>control+X</em> и напечатать "N".
 
-![2nano](src/screenshots/7nano1.png)
+![2nano](/src/screenshots/7nano1.png)
 
 Для выхода из MCEDIT без сохранения необходимо нажать <em>fn+F10</em>.
 
-![2mc](src/screenshots/7mc1.png)
+![2mc](/src/screenshots/7mc1.png)
 
 ##### Результаты поиска и замены слова
 
-![3vim](src/screenshots/7vim2.png)
+![3vim](/src/screenshots/7vim2.png)
 
-![4vim](src/screenshots/7vim3.png)
+![4vim](/src/screenshots/7vim3.png)
 
-![3nano](src/screenshots/7nano2.png)
+![3nano](/src/screenshots/7nano2.png)
 
-![4nano](src/screenshots/7nano3.png)
+![4nano](/src/screenshots/7nano3.png)
 
-![3mc](src/screenshots/7mc2.png)
+![3mc](/src/screenshots/7mc2.png)
 
-![4mc](src/screenshots/7mc3.png)
+![4mc](/src/screenshots/7mc3.png)
 
 ## Part 8. Установка и базовая настройка сервиса SSHD
 
@@ -146,7 +146,7 @@
 
 Вызываем команду <em>netstat -tan</em>
 
-![netstat](src/screenshots/8.png)
+![netstat](/src/screenshots/8.png)
 
 - Ключ <em>t</em> перечисляет TCP соединения; 
 - Ключ <em>a</em> создает сокеты, готовые к соединению; 
@@ -176,14 +176,14 @@
 
 
 - Вывод команды htop:
-  ![htop](src/screenshots/9htop.png)
-  ![htop1](src/screenshots/9htop1.png)
-  ![htop2](src/screenshots/9htop2.png)
-  ![htop3](src/screenshots/9htop3.png)
-  ![sshd](src/screenshots/9sshd.png)
-  ![syslog](src/screenshots/9syslog.png)
-  ![syslog1](src/screenshots/9syslog1.png)
-  ![setup](src/screenshots/9setup.png)
+  ![htop](/src/screenshots/9htop.png)
+  ![htop1](/src/screenshots/9htop1.png)
+  ![htop2](/src/screenshots/9htop2.png)
+  ![htop3](/src/screenshots/9htop3.png)
+  ![sshd](/src/screenshots/9sshd.png)
+  ![syslog](/src/screenshots/9syslog.png)
+  ![syslog1](/src/screenshots/9syslog1.png)
+  ![setup](/src/screenshots/9setup.png)
 
 ## Part 10. Использование утилиты fdisk
 
@@ -210,16 +210,16 @@
 
 ## Part 12. Использование утилиты du
 
-![du](src/screenshots/12home.png)
-![du1](src/screenshots/12var.png)
-![du2](src/screenshots/12log.png)
-![du3](src/screenshots/12log1.png)
+![du](/src/screenshots/12home.png)
+![du1](/src/screenshots/12var.png)
+![du2](/src/screenshots/12log.png)
+![du3](/src/screenshots/12log1.png)
 
 ## Part 13. Установка и использование утилиты ncdu
 
-![ncdu](src/screenshots/13home.png)
-![ncdu1](src/screenshots/13var.png)
-![ncdu2](src/screenshots/13log.png)
+![ncdu](/src/screenshots/13home.png)
+![ncdu1](/src/screenshots/13var.png)
+![ncdu2](/src/screenshots/13log.png)
 
 ## Part 14. Работа с системными журналами
 
@@ -227,11 +227,11 @@
 - Имя пользователя: matinish1;
 - Метод входа в систему: login;
 
-![sshd](src/screenshots/14sshd.png)
+![sshd](/src/screenshots/14sshd.png)
 
 ## Part 15. Использование планировщика заданий CRON
 
-![cron](src/screenshots/15cron.png)
-![log](src/screenshots/15log.png)
-![rel](src/screenshots/15rel.png)
-![end](src/screenshots/15end.png)
+![cron](/src/screenshots/15cron.png)
+![log](/src/screenshots/15log.png)
+![rel](/src/screenshots/15rel.png)
+![end](/src/screenshots/15end.png)
